@@ -578,39 +578,27 @@
     }
 
     .project-img {
-      width: 50%;
-      height: 200px;
+      width: 100%;
+      height: 350px;
       overflow: hidden;
       position: relative;
-      background: linear-gradient(90deg, #1a1a1a 25%, #2a2a2a 50%, #1a1a1a 75%);
-      background-size: 200% 100%;
-      animation: shimmerGradient 3s infinite linear;
+      background: #1a1a1a;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 1rem;
     }
 
     .project-img::before {
-      content: 'READY TO ADD DESIGN';
-      position: absolute;
-      font-size: 0.6rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      color: rgba(255, 255, 255, 0.3);
-      animation: pulse 2s infinite ease-in-out;
+      display: none;
     }
 
     .project-img img {
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
-      object-fit: contain;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
       transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       display: block;
       cursor: pointer;
-      border-radius: 0.5rem;
       z-index: 2;
     }
 
@@ -1529,7 +1517,7 @@
       <div class="project-card reveal">
         <div class="project-img">
           <img
-            src="" style="display:none"
+            src="yummy-bakery.jpg"
             alt="Yummy Bakery promotional poster design" />
         </div>
         <div class="project-body">
@@ -1547,7 +1535,7 @@
       <div class="project-card reveal">
         <div class="project-img">
           <img
-            src="" style="display:none"
+            src="let-sparkles-fly.jpg"
             alt="Let Sparkles Fly apparel campaign design" />
         </div>
         <div class="project-body">
@@ -1565,7 +1553,7 @@
       <div class="project-card reveal">
         <div class="project-img">
           <img
-            src="" style="display:none"
+            src="dag-coffee.jpg"
             alt="DAG Coffee promotion poster design" />
         </div>
         <div class="project-body">
@@ -1583,7 +1571,7 @@
       <div class="project-card reveal">
         <div class="project-img">
           <img
-            src="" style="display:none"
+            src="nova-care-carousel.jpg"
             alt="Nova Care skincare carousel design" />
         </div>
         <div class="project-body">
@@ -1594,6 +1582,23 @@
           <div class="project-tags">
             <span class="project-tag">Carousel</span><span class="project-tag">Skincare</span><span
               class="project-tag">Storytelling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img
+            src="nova-care-poster.jpg"
+            alt="Nova Care skincare poster design" />
+        </div>
+        <div class="project-body">
+          <div class="project-num">05</div>
+          <h3>Nova Care — Poster Design</h3>
+          <p>Clean and minimalist skincare poster focusing on ingredient clarity and modern aesthetics.</p>
+          <div class="project-tags">
+            <span class="project-tag">Print Design</span><span class="project-tag">Skincare</span><span
+              class="project-tag">Minimalist</span>
           </div>
         </div>
       </div>
